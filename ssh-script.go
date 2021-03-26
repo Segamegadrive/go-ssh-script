@@ -17,7 +17,7 @@ func main() {
 	username := "ubuntu"
 	ipaddr := "10.5.31.113"
 	port := "22"
-	command := "uptime"
+	command := "ls"
 
 	key, err := ioutil.ReadFile("/Users/Sagar Gurung/Downloads/5gc-key.pem")
 	if err != nil {
